@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhuumo Coffee</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5e1c0;
+            color: #4b2e1e;
+        }
+        .navbar {
+            background-color: #3e2723 !important;
+        }
+        .navbar-brand, .nav-link {
+            color: #ffc107 !important;
+        }
+        .carousel img {
+            height: 500px;
+            width: 100%;
+            object-fit: cover;
+        }
+        .img-fluid {
+            height: 250px;
+            width: 100%;
+            object-fit: cover;
+        }
+        .text-highlight {
+            color: #8d5524;
+            font-weight: bold;
+        }
+        .section-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #3e2723;
+            color: white;
+            padding: 20px 0;
+        }
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Dhuumo Coffee</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Aboutus.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="visionMission.html">Vision & Mission</a></li>
+                        <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Carousel Section -->
+    <div id="coffeeCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./view-coffee-making-machine_23-2150698729.avif" class="d-block w-100" alt="Delicious Coffee">
+            </div>
+            <div class="carousel-item">
+                <img src="sack-art-spoon-black-cup_1172-298.avif" class="d-block w-100" alt="Coffee Beans and Cup">
+            </div>
+            <div class="carousel-item">
+                <img src="cup-delicious-coffee_23-2148093814.avif" class="d-block w-100" alt="Cup of Coffee">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#coffeeCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#coffeeCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <section class="text-center mb-4 section-container">
+            <h1 class="text-highlight">Welcome to Dhuumo Coffee</h1>
+            <p class="lead">Ku soo dhowow Dhuumo Coffee, halka aad ka heli doonto isku dhafka ugu fiican ee qaxwo macaan iyo jawi raaxo leh!</p>
+        </section>
+
+        <section class="row text-center">
+            <div class="col-md-4">
+                <div class="section-container">
+                    <img src="coffee-machine-filling-cup_1286-226.avif" alt="Coffee Image 1" class="img-fluid rounded mb-3">
+                    <p class="text-highlight">Enjoy our rich and aromatic coffee blends.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="section-container">
+                    <img src="sack-art-spoon-black-cup_1172-298.avif" alt="Coffee Image 2" class="img-fluid rounded mb-3">
+                    <p class="text-highlight">Freshly roasted beans for the perfect brew.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="section-container">
+                    <img src="cup-delicious-coffee_23-2148093814.avif" alt="Coffee Image 3" class="img-fluid rounded mb-3">
+                    <p class="text-highlight">Your coffee journey begins here.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2025 Dhuumo Coffee Website. All rights reserved.</p>
+            <p>Follow us on <a href="#">Facebook</a>, <a href="#">Twitter</a>, and <a href="#">Instagram</a>.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
